@@ -16,12 +16,6 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 public class SpringSecurityConfiguration {
-    //LDAP or Database
-    //In Memory
-
-    //InMemoryUserDetailsManager
-    //InMemoryUserDetailsManager(UserDetails... users)
-
     @Bean
     public InMemoryUserDetailsManager createUserDetailsManager() {
 
@@ -43,7 +37,6 @@ public class SpringSecurityConfiguration {
                 .build();
         return userDetails;
     }
-
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
