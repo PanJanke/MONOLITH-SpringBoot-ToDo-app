@@ -17,13 +17,15 @@ import java.util.List;
 @Controller
 @SessionAttributes("name")
 public class TodoControllerJpa {
+    private TodoRepository todoRepository;
+
 
     public TodoControllerJpa(TodoRepository todoRepository) {
         super();
         this.todoRepository = todoRepository;
     }
 
-    private TodoRepository todoRepository;
+
 
     @RequestMapping("list-todos")
     public String listAllTodos(ModelMap model) {
