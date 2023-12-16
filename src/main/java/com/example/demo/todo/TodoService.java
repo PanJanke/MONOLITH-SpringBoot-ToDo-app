@@ -1,6 +1,7 @@
 package com.example.demo.todo;
 
 import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -10,7 +11,7 @@ import java.util.List;
 public class TodoService {
 
     private final TodoRepository todoRepository;
-
+    @Autowired
     public TodoService(TodoRepository todoRepository) {
         this.todoRepository = todoRepository;
     }
