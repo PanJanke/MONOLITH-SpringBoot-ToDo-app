@@ -1,5 +1,5 @@
-<%@include file="common/header.jspf"%>
-<%@include file="common/navigation.jspf"%>
+<%@include file="common/header.jspf" %>
+<%@include file="common/navigation.jspf" %>
 
 <div class="container">
     <h1>Enter Todo Details</h1>
@@ -16,8 +16,14 @@
             <form:errors path="targetDate" cssClass="text-warning"/>
         </fieldset>
 
+
+        <fieldset class="mb-3">
+            <form:label path="done">Done</form:label>
+            <form:checkbox path="done"/>
+        </fieldset>
+
         <form:input type="hidden" path="id"/>
-        <form:input type="hidden" path="done"/>
+
         <input type="submit" class="btn btn-success"/>
 
     </form:form>
@@ -25,10 +31,10 @@
 </div>
 
 
-<%@include file="common/footer.jspf"%>
+<%@include file="common/footer.jspf" %>
 
 <script type="text/javascript">
-            $('#targetDate').datepicker({
-                format: 'yyyy-mm-dd'
-            });
-        </script>
+    $('#targetDate').datepicker({
+        format: 'yyyy-mm-dd'
+    });
+</script>
