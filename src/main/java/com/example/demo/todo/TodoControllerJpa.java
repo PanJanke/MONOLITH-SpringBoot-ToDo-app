@@ -35,7 +35,7 @@ public class TodoControllerJpa {
         return "listTodos";
     }
 
-    //GET, POST
+
     @RequestMapping(value = "add-todo", method = RequestMethod.GET)
     public String showNewTodoPage(ModelMap model) {
         String username = getLoggedInUsername(model);
