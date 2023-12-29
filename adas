@@ -1,0 +1,83 @@
+[33mcommit 4558dacce1391262fffdad25d3056068ca8bed21[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mToDo-app[m[33m, [m[1;31morigin/ToDo-app[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jan Krol <jan.krol.legowski@gmail.com>
+Date:   Sat Dec 16 13:33:00 2023 +0100
+
+    .
+
+[33mcommit b41eae18717b898966e2e4b2a94e292e7e3250f8[m
+Author: Jan Krol <jan.krol.legowski@gmail.com>
+Date:   Sat Dec 16 12:58:05 2023 +0100
+
+    remove unnecesary files
+
+[33mcommit 32f6c76d8dd38e79e73ebe85132e30d7fa0e7e25[m
+Author: Jan Krol <jan.krol.legowski@gmail.com>
+Date:   Sat Dec 16 12:42:26 2023 +0100
+
+    .
+
+[33mcommit cee539a8d3dde631417dda02c34b5d01ad4a7a41[m
+Author: Jan Krol <jan.krol.legowski@gmail.com>
+Date:   Sat Dec 16 12:00:59 2023 +0100
+
+    clean up
+
+[33mcommit 896ff1d0bb418169107214229b66864c4bb86287[m
+Author: Jan Krol <jan.krol.legowski@gmail.com>
+Date:   Sat Dec 16 11:48:03 2023 +0100
+
+    refactor code
+
+[33mcommit f8c3171b0fe76fc8594af55b20d80920c2b3e936[m
+Author: Jan Krol <jan.krol.legowski@gmail.com>
+Date:   Fri Dec 15 21:22:22 2023 +0100
+
+     set up docker mySQL database
+
+[33mcommit fff1455d04467a50837b4dfe010cffae8bd60337[m
+Author: Jan <jan.krol.legowski@gmail.com>
+Date:   Sat May 13 19:36:24 2023 +0200
+
+    sql setup
+
+[33mcommit 02c9d216ea3776e702f940d3684e49572072faa0[m
+Author: Jan <jan.krol.legowski@gmail.com>
+Date:   Wed May 10 14:12:03 2023 +0200
+
+    h2 base, springSecurity change
+
+[33mcommit 61158d4990afed58c692739723b42decd5fa7aa4[m
+Author: Jan <jan.krol.legowski@gmail.com>
+Date:   Sat May 6 12:42:12 2023 +0200
+
+     add header,footer, nav bar
+
+[33mcommit 4199d219cd3e6275eac4e95390ea9967b74e0fc8[m
+Author: Jan <jan.krol.legowski@gmail.com>
+Date:   Fri May 5 16:01:05 2023 +0200
+
+    add delete, update buttons and validations
+
+[33mcommit 5f284f63d7e022594f326d75fa60f12e925e4b6d[m
+Author: Jan <jan.krol.legowski@gmail.com>
+Date:   Thu May 4 19:53:15 2023 +0200
+
+    add Todo - service,controller,static list, bootstrap CSS
+
+[33mcommit daa016da06bbe52b47d674848408fdb189869189[m
+Author: Jan <jan.krol.legowski@gmail.com>
+Date:   Fri Apr 28 15:42:22 2023 +0200
+
+    .
+
+[33mcommit 6ddc57d24d13859e85c6a8e9ed2fcc84467a103d[m
+Author: Jan <jan.krol.legowski@gmail.com>
+Date:   Thu Apr 27 01:18:35 2023 +0200
+
+    authorization basic
+
+[33mcommit 44d8502fe5fdf40c9c33f28c3a7405100e84ece6[m
+Author: Jan <jan.krol.legowski@gmail.com>
+Date:   Wed Apr 26 00:36:05 2023 +0200
+
+     logging page basic
